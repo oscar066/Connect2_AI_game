@@ -289,7 +289,7 @@ def single():
                 drop_piece(board, row, col, COMPUTER_PIECE)
 
                 if winning_move(board, COMPUTER_PIECE):
-                    label = myfont.render("Computer wins!!", 1, YELLOW)
+                    label = myfont.render("Oscar wins!!", 1, YELLOW)
                     screen.blit(label, (40, 10))
                     game_over = True
 
